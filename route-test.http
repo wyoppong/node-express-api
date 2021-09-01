@@ -1,0 +1,25 @@
+Get http://localhost:9000/subscribers
+
+###
+Get http://localhost:9000/subscribers/612f437c4e15c288726f214e
+
+###
+POST http://localhost:9000/subscribers
+Content-Type: application/json
+
+{
+    "name": "dikembe motumbo",
+    "channel": "Sowers Television Network"
+}
+
+###
+PATCH  http://localhost:9000/subscribers/612f437c4e15c288726f214e
+Content-Type: application/json
+
+{
+    "name": "wy is oppong",
+    "channel": "Sowers TV"
+}
+
+### 
+DELETE http://localhost:9000/subscribers/612f4693e0639a6d59f8484b
